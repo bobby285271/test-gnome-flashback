@@ -23,6 +23,11 @@
               less
             ];
 
+            environment.gnome.excludePackages = with pkgs; [
+              gnome.totem
+              gnome.cheese
+            ];
+
             services.xserver = {
               enable = true;
               desktopManager.gnome.flashback.enableMetacity = true;
