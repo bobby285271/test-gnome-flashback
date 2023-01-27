@@ -13,7 +13,7 @@
             imports = [ "${inputs.nixpkgs}/nixos/modules/virtualisation/qemu-vm.nix" ];
 
             environment.systemPackages = with pkgs; [
-              ashpd-demo
+              # ashpd-demo
               d-spy
               gdb
               binutils
